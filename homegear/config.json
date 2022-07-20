@@ -12,7 +12,7 @@
   "usb": true,
   "gpio": true,
   "privileged": ["SYS_ADMIN", "SYS_RAWIO"],
-  "devices": ["/dev/mem", "/dev/spidev0.0", "/dev/gpiomem"],
+  "devices": ["/dev/mem", "/dev/spidev0.0", "/dev/gpiomem", "/dev/ttyAMA0:/dev/ttyAMA0:rwm", "/dev/ttyACM0:/dev/ttyACM0:rwm"],
   "map": ["config:rw", "share:rw"],
   "ports": {
     "80/tcp": 2080,
